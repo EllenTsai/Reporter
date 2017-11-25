@@ -1,0 +1,181 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-11-09 13:16:31
+  from "C:\Users\Ellen\Dropbox\Ellen_php7\Ellen_php7\UniServerZ\www\reporter\templates\index.tpl" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5a04552fe63b65_63314380',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'd033f81e5a2aebbaaeafcb4d6c043724096871b4' => 
+    array (
+      0 => 'C:\\Users\\Ellen\\Dropbox\\Ellen_php7\\Ellen_php7\\UniServerZ\\www\\reporter\\templates\\index.tpl',
+      1 => 1510233360,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5a04552fe63b65_63314380 (Smarty_Internal_Template $_smarty_tpl) {
+?>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/my.css">
+
+</head>
+
+<body>
+    <div class="img-container">
+
+        <div class="container">
+            <nav class="nav">
+                <a href="index.php" class="nav-link text-white">首頁</a>
+                <a href="index.php" class="nav-link text-white">編輯精選</a>
+                <a href="index.php" class="nav-link text-white">街巷故事</a>
+                <a href="index.php" class="nav-link text-white">市井觀點</a>
+                <a href="index.php" class="nav-link text-white">私房知識塾</a>
+                <a href="admin.php" class="nav-link text-white">管理</a>
+            </nav>
+            <h1 class="text-white" .pt-5>花蓮193線道的美麗與哀愁</h1>
+            <div class="row">
+                <div class="col-6">
+                    <p class="text-white" .mt-5>【編按】花蓮縣政府將於17日舉行環境差異分析審查會，議決通往花蓮著名景點七星潭的「193縣道拓寬案」。《報導者》特別刊登作家吳明益專文，在環差會議前夕深刻反思此案的必要性，進一步看見193縣道這條優美秘境的真正價值。</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p class="lipsum(3,20-50)" .mt-5></p>
+    </div>
+
+    <?php echo '<script'; ?>
+ src="js/jquery-3.2.1.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="js/popper.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="js/bootstrap.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+>
+        $(document).ready(function () {
+            //執行動作
+            $(".img-container").css('width', $(windows).width());
+            $(".img-container").css('hight', $(windows).hight());
+        });
+        $(document).resize(function () {
+            //執行動作
+            $(".img-container").css('width', $(windows).width());
+            $(".img-container").css('hight', $(windows).hight());
+        });
+    <?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="http://more.handlino.com/javascripts/moretext-1.2.js" type="text/javascript"><?php echo '</script'; ?>
+>
+
+
+</body>
+
+</html>
+<!doctype html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/my.css">
+</head>
+
+<body>
+
+    <div class="img-container">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.php" class="nav-link text-white">首頁</a>
+                <a href="index.php" class="nav-link text-white">編輯精選</a>
+                <a href="index.php" class="nav-link text-white">街巷故事</a>
+                <a href="index.php" class="nav-link text-white">市井觀點</a>
+                <a href="index.php" class="nav-link text-white">私房知識塾</a>
+                <a href="admin.php" class="nav-link text-white">管理</a>
+            </nav>
+            <h1 class="text-white" .pt-5>花蓮193線道的美麗與哀愁</h1>
+            <div class="row">
+                <div class="col-6">
+                    <p class="text-white" .mt-5>【編按】花蓮縣政府將於17日舉行環境差異分析審查會，議決通往花蓮著名景點七星潭的「193縣道拓寬案」。《報導者》特別刊登作家吳明益專文，在環差會議前夕深刻反思此案的必要性，進一步看見193縣道這條優美秘境的真正價值。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['all']->value, 'article');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['article']->value) {
+?>
+        <h3><?php echo $_smarty_tpl->tpl_vars['article']->value['title'];?>
+ </h3>
+        <?php
+}
+} else {
+?>
+
+        <h1>尚無內容</h1>
+        <?php
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
+?>
+
+    </div>
+
+    <?php echo '<script'; ?>
+ src="js/jquery-3.2.1.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="js/popper.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="js/bootstrap.min.js"><?php echo '</script'; ?>
+>
+
+    <?php echo '<script'; ?>
+>
+        $(document).ready(function () {
+            $('.img-container').css('width', $(window).width());
+            $('.img-container').css('height', $(window).height());
+        });
+        $(window).resize(function () {
+            $('.img-container').css('width', $(window).width());
+            $('.img-container').css('height', $(window).height());
+        });
+    <?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="http://more.handlino.com/javascripts/moretext-1.2.js" type="text/javascript"><?php echo '</script'; ?>
+>
+
+</body>
+
+</html><?php }
+}
